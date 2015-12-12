@@ -5,7 +5,10 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+    "express": "^4.4.5",
+    "jquery": "^2.1.4",
+    "react-tools": "^0.13.3",
+    "requirejs": "^2.1.22"
   },
   "devDependencies": {},
   "scripts": {
@@ -27,7 +30,7 @@
     "url": "https://github.com/reactjs/react-tutorial/issues"
   },
   "homepage": "https://github.com/reactjs/react-tutorial",
-  "engines" : {
-    "node" : "0.12.x"
+  "engines": {
+    "node": "0.12.x"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "examples",
+  "description": "javascript demo",
+  "main": "app.js",
+  "authors": [
+    "wanghe"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wanghe4096/react-tutorial",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.14.3"
+  },
+  "devDependencies": {
+    "jsx-requirejs-plugin": "~0.6.2"
+  }
+}

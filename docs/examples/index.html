@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> hello world </title>
+    <!-- <script src="node_modules/requirejs/require.js" data-main="app"> </script> -->
+    <script src="node_modules/react/dist/react.min.js" > </script>
+  </head>
+  <body>
+    <h1 id="h1"> hello world </h1>
+    <hr/>
+    <h1 > Reactjs Demo </h1>
+    <div id="example" ></div>
+    <script type="text/jsx" >
+      React.render(
+        '<h1> Hello, world! </h1>',
+        document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>
